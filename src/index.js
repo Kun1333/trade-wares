@@ -6,3 +6,4 @@ import {HashRouter} from 'react-router-dom'
 import {createStore, applyMiddleware, combineReducers} from 'redux';
 import {Provider} from 'react-redux';
 import Immutable from 'immutable';
+import registerServiceWorker from './registerServiceWorker';
